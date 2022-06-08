@@ -1,6 +1,7 @@
 import React from 'react';
 import WorkImg from '../assets/workImg.jpeg'
 import realEstate from '../assets/realestate.jpg'
+import bike from '../assets/Screenshot (15).png'
 
 const work = () => {
     return (
@@ -28,7 +29,7 @@ const work = () => {
                   React JS Application
                 </span>
                 <div className='pt-8 text-center'>
-                  <a href='/'>
+                  <a href='https://bike-parts-4299a.web.app'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                       Demo
                     </button>
@@ -52,7 +53,7 @@ const work = () => {
                   React JS Application
                 </span>
                 <div className='pt-8 text-center'>
-                  <a href='/'>
+                  <a href='https://warehouse-7020b.web.app'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                       Demo
                     </button>
@@ -75,7 +76,7 @@ const work = () => {
                   React JS Application
                 </span>
                 <div className='pt-8 text-center'>
-                  <a href='/'>
+                  <a href='/z'>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                       Demo
                     </button>

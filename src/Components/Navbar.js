@@ -9,7 +9,7 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import logo from '../assets/logo.png';
+import logo from '../assets/Shakhawath.png';
 import { Link } from 'react-scroll';
 
 ;
@@ -21,7 +21,7 @@ const Navbar = () => {
     return (
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300  '>
             <div>
-                <img src={logo} alt='Logo Image' style={{ width: '50px' }} />
+                <img src={logo} alt='Logo Image' style={{ width: '100px' }} />
             </div>
             {/* Menu */}
 
@@ -83,23 +83,23 @@ const Navbar = () => {
             <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 rounded-[12px]'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+                        <a className='flex justify-between items-center w-full text-gray-300' href='https://www.linkedin.com/in/shakhawath-hossain-shatu-a5114117b/'>
                             Linkedin <FaLinkedin size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#17181c] rounded-[12px]'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+                        <a className='flex justify-between items-center w-full text-gray-300' href='https://github.com/Shakhawathh?tab=repositories'>
                             Github <FaGithub size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1FC4Da] rounded-[12px]'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+                        <a className='flex justify-between items-center w-full text-gray-300' href='mailto:shakhawathh55@gmail.com'>
                             Email <HiOutlineMail size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#244D61] rounded-[12px]'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href='/'>
-                            Portfolio <BsFillPersonLinesFill size={30} />
+                        <a className='flex justify-between items-center w-full text-gray-300' href='https://drive.google.com/file/d/16R_lqxYBzp2BwK_RZVDfbjWJZun-oiDJ/view?usp=sharing' target={'_blank'}>
+                            Resume <BsFillPersonLinesFill size={30} />
                         </a>
                     </li>
                 </ul>
