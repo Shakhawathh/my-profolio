@@ -7,12 +7,14 @@ import Skills from './Components/Skills';
 import Work from './Components/Work';
 import Contact from './Components/Contact';
 
+
 function App() {
   return (
     <div className="App">
      <Navbar></Navbar>
      <Home></Home>
      <About></About>
+     
      <Skills></Skills>
      <Work></Work>
      <Contact></Contact>
