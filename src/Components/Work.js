@@ -2,6 +2,7 @@ import React from "react";
 import WorkImg from "../assets/1.jpg";
 import Img2 from "../assets/2.jpg";
 import Img3 from "../assets/3.jpg";
+import Img4 from "../assets/car.png";
 
 const work = () => {
   return (
@@ -72,7 +73,7 @@ const work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${Img2})` }}
+            style={{ backgroundImage: `url(${Img4})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
